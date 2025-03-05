@@ -1,0 +1,146 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark text color */
+}
+
+/* Header and Navigation Styles */
+.header {
+    background-color: #4a5157; /* Dark background for header */
+    padding: 10px 20px; /* Padding for header */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+}
+
+.navbar a {
+    color: white; /* White text color for links */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 15px; /* Space between links */
+    font-weight: bold; /* Bold text for links */
+}
+
+.navbar a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Search Form Styles */
+.navbar form {
+    display: flex;
+}
+
+.navbar input[type="text"] {
+    padding: 5px; /* Padding inside the search input */
+    border-radius: 5px; /* Rounded corners for input */
+    border: 1px solid #ccc; /* Light border for input */
+}
+
+.navbar button {
+    padding: 5px 10px; /* Padding for button */
+    border-radius: 5px; /* Rounded corners for button */
+    border: none; /* Remove default border */
+    background-color: #0056b3; /* Darker blue for button */
+    color: white; /* White text color for button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.navbar button:hover {
+    background-color: #004494; /* Darker blue on hover */
+}
+
+/* Table Styles */
+table {
+    width: 100%; /* Full width table */
+    border-collapse: collapse; /* Collapse borders */
+    margin-top: 20px; /* Space above the table */
+}
+
+th, td {
+    padding: 10px; /* Padding inside table cells */
+    text-align: left; /* Align text to the left */
+}
+
+th {
+    background-color: #007BFF; /* Blue background for header cells */
+    color: white; /* White text color for header cells */
+}
+
+tr:nth-child(even) {
+    background-color: #57a2d1; /* Light gray for even rows */
+}
+
+/* Form Styles */
+form {
+    margin-top: 20px; /* Space above the form */
+}
+
+h1 {
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+label {
+    display: block; /* Block display for labels to stack vertically */
+    margin-top: 5px; /* Space above labels */
+}
+
+/* Image Section Styles */
+#image {
+    margin-top: 20px;
+}
+
+/* Image Container Styles (New)*/
+.image-container {
+    max-width: 600px; /* Maximum width of the image box */
+    margin: 20px auto; /* Center the container horizontally with auto margins*/
+    padding: 20px; /* Padding inside the box */
+    border: 2px solid #333; /* Dark border around the box */
+    border-radius: 8px; /* Rounded corners for the box */
+    background-color: #fff; /* White background inside the box*/
+}
+
+/* Image Styling (Updated)*/
+.image-container img {
+    width: 100%; /* Responsive image width within container*/
+    height: auto; /* Maintain aspect ratio of the image*/
+}
+
+/* Audio Container Styles */
+.audio-container {
+    margin-top: 20px;
+}
+
+/* Footer Styles (Updated)*/
+.footer {
+    background-color: #4a5157; /* Dark gray background for footer matching header*/
+    color: white; /* White text color in footer*/
+    padding: 20px 10px; /* Padding inside footer*/
+    text-align: center; /* Center align text in footer*/
+}
+
+.footer-container p {
+    margin: 5px 0; /* Add spacing between paragraphs in footer*/
+}
+
+.footer-container a {
+    color: #00bfff; /* Light blue links in footer*/
+}
+
+.footer-container a:hover {
+    text-decoration: underline; /* Underline links on hover in footer*/
+}
+
+.social-links {
+   list-style-type: none; /* Remove bullet points from list in footer*/
+   padding-left: 0;
+   margin-top: 10px;
+}
+
+.social-links li {
+   display: inline-block; /* Display social links inline with spacing*/
+   margin-right: 15px;
+}
